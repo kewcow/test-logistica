@@ -12,7 +12,7 @@ function usuario_autenticado() {
 }
 // Esta funcion revisa que exista la variable de session email, si existe quiere decir que el usuario se autentico con exito
 function revisar_usuario() {
-    return !isset($_SESSION['email']); //&& $_GET['controller'] != 'Login';
+    return !isset($_SESSION['email']) && $_GET['controller'] != 'Login';
 }
 //ini_set('session.save_path',realpath(dirname($_SERVER['DOCUMENT_ROOT']) . '/session'));
 session_start();
