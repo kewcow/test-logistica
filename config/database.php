@@ -1,9 +1,9 @@
 <?php
     return array(
         "driver"   => "mysql",
-        "host"     => "containers-us-west-120.railway.app",
+        "host"     => "containers-us-west-83.railway.app:7463",
         "user"     => "root",
-        "pass"     => "JVflzYnQg4AckDHOE0uD",
+        "pass"     => "skekvhVcuAy9vLFtoyP0",
         "database" => "railway",
         "charset"  => "utf8"
 
