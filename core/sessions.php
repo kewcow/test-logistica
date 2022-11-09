@@ -1,7 +1,7 @@
 <?php
 //Creamos una funcion para cuando el usuario no este autenticado, hace el redirect al login
 function usuario_autenticado() {
-    if(revisar_usuario()) {
+    if(true) {
         $host = $_SERVER['HTTP_HOST'];
         $ruta = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
         $html = 'index.php?controller=Login&action=index';
