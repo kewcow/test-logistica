@@ -8,7 +8,6 @@
     $ruta = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
     $html = 'index.php?controller=Login&action=index';
     $url = "http://$host$ruta/$html";
-    $url 
   ?>"/>
   <title>AdminLTE 3 | Blank Page</title>
 
