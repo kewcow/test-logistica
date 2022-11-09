@@ -1,3 +1,9 @@
+<?=
+$host = $_SERVER['HTTP_HOST'];
+$ruta = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+$html = 'index.php?controller=Login&action=index';
+$url = "http://$host$ruta/$html";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
