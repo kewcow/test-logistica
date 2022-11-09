@@ -1,10 +1,10 @@
 <?php
     return array(
         "driver"   => "mysql",
-        "host"     => "127.0.0.1",
+        "host"     => "containers-us-west-120.railway.app",
         "user"     => "root",
-        "pass"     => "",
-        "database" => "mvc",
+        "pass"     => "JVflzYnQg4AckDHOE0uD",
+        "database" => "railway",
         "charset"  => "utf8"
 
     );
