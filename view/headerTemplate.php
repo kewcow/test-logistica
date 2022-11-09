@@ -1,16 +1,9 @@
-<?=
-$host = $_SERVER['HTTP_HOST'];
-$ruta = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-$html = 'index.php?controller=Login&action=index';
-$url = "http://$host$ruta/$html";
-""
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Location" content="<?= $url ?>"/>
+  <meta http-equiv="Location" content="http://test-logistica-production.up.railway.app/index.php?controller=Login&action=index"/>
   <title>AdminLTE 3 | Blank Page</title>
 
   <!-- Google Font: Source Sans Pro -->
