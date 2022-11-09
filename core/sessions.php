@@ -2,7 +2,7 @@
 //Creamos una funcion para cuando el usuario no este autenticado, hace el redirect al login
 function usuario_autenticado() {
     if(true) {//!revisar_usuario() && $_GET["controller"] != 'Login') {
-        //header('Location:index.php?controller=Login&action=index');
+        header('Location:index.php?controller=Login&action=index');
         exit();
     }
 }
